@@ -1,6 +1,6 @@
 ---
 layout: post
-title: any() vs all()
+title: any() vs all() function – Python
 description: 
 thumbnail: ../../../../assets/images/python/any-vs-all.png
 author: Dipak Pulami Magar
