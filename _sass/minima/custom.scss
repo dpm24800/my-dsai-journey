@@ -1,5 +1,13 @@
-h1{
-    font-size: 28px; // doesn't work
+.post-content h1{
+  font-size: 28px; // doesn't work
+}
+
+.post-content h2 {
+  font-size: 23px;
+}
+
+.post-content h3 {
+  font-size: 18px;
 }
 
 img{
@@ -59,8 +67,6 @@ body{
   background-color: #222;
   transform: translateY(-3px);
 }
-
-
 
 .post-status {
   // background: #fef3c7;
