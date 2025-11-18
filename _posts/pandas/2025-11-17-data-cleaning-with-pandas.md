@@ -178,7 +178,7 @@ df['year'] = df['text'].str.extract(r'(\d{4})')
 --->
 
 <!-- # **8. Handling Inconsistent Data** -->
-# 5. Handling Inconsistent Data**
+# **5. Handling Inconsistent Data**
 ### **Detect impossible values**
 ```python
 df[df['age'] < 0]
@@ -191,8 +191,8 @@ df[df['height'] > 250]
 df.loc[df['age'] < 0, 'age'] = df['age'].median()
 ```
 
-<!-- # **9. Feature Engineering** -->
-# **Feature Engineering**
+<!-- # **9. Feature Engineering** 
+# **Feature Engineering**-->
 ### **Create new columns**
 ```python
 df['total_price'] = df['quantity'] * df['unit_price']
@@ -217,7 +217,8 @@ df['weekday'] = df['date'].dt.day_name()
 ```
 -->
 
-# **10. Renaming Columns**
+<!-- # **10. Renaming Columns** -->
+# **6. Renaming Columns**
 ### **Best practice**
 
 ```python
@@ -318,7 +319,7 @@ A clean dataset ready for:
 
 ---
 
-# Summary & Best Practices**  
+# **7. Summary & Best Practices**
 <!-- **13. Summary & Best Practices**  -->
 
 ### **Data Cleaning Checklist**
